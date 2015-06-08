@@ -115,7 +115,7 @@ mod 'supervisor',
 
 # Add the puppet-schema_registry module
 mod 'schema_registry',
-  :git => 'https://github.com/miguno/puppet-schema_registry.git'
+  :git => 'https://github.com/verisign/puppet-schema_registry.git'
 
 ```
 
