@@ -1,4 +1,4 @@
-# puppet-schema_registry [![Build Status](https://travis-ci.org/miguno/puppet-schema_registry.png?branch=master)](https://travis-ci.org/miguno/puppet-schema_registry)
+# puppet-schema_registry [![Build Status](https://travis-ci.org/verisign/puppet-schema_registry.png?branch=master)](https://travis-ci.org/verisign/puppet-schema_registry)
 
 [Wirbelsturm](https://github.com/miguno/wirbelsturm)-compatible [Puppet](http://puppetlabs.com/) module to deploy
 [Confluent schema registry](https://github.com/confluentinc/schema-registry).
