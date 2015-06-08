@@ -3,7 +3,7 @@ language: ruby
 bundler_args: --without development
 before_install:
   - rm Gemfile.lock || true
-  # Fixes a rubygems bug that causes failures on Travis CI
+  # Fixes a rubygems bug that causes failures on Travis CI.
   # See https://github.com/bundler/bundler/issues/2784
   - gem update --system 2.2.1
   - gem --version
