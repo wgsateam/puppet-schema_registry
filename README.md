@@ -22,7 +22,6 @@ Table of Contents
         * <a href="#manifests">Using Puppet manifests</a>
     * <a href="#service-management">Service management</a>
     * <a href="#log-files">Log files</a>
-* <a href="#custom-zk-root">Custom ZooKeeper chroot (experimental)</a>
 * <a href="#development">Development</a>
 * <a href="#todo">TODO</a>
 * <a href="#changelog">Change log</a>
