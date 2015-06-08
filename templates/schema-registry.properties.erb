@@ -1,0 +1,12 @@
+###
+### This file is managed by Puppet.
+###
+
+port=<%= @port %>
+kafkastore.connection.url=<%= @kafkastore_connection_url.join(',') %>
+
+# Additional configuration options may follow here, injected via the
+# `$config_map` Puppet class parameter.
+<% if @config_map -%><% @config_map.sort.each do |key,value| -%>
+<%= key %>=<%= value %>
+<% end -%><% end -%>

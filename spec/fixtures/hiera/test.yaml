@@ -1,0 +1,5 @@
+---
+schema_registry::port: 8888
+schema_registry::user: jsmith
+schema_registry::config_map:
+  avro.compatibility.level: 'full'
